@@ -1,11 +1,11 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
 import "./Project.css";
 import BlogCard from "../../components/blogCard/BlogCard";
-import { Fade } from "react-reveal";
+
 import { projectSection } from "../../portfolio";
 export default function Projects() {
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <>
       <div className="main" id="projects">
         <div className="blog-header">
           <h1 className="blog-header-text">{projectSection.title}</h1>
@@ -28,6 +28,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-    </Fade>
+    </>
   );
 }

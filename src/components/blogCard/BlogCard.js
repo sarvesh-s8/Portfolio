@@ -1,6 +1,5 @@
 import React from "react";
 import "./BlogCard.css";
-import { Fade } from "react-reveal";
 
 export default function BlogCard({ blog }) {
   function openUrlInNewTab(url) {
@@ -11,7 +10,7 @@ export default function BlogCard({ blog }) {
   }
 
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <div>
       <div>
         <div
           className="blog-container"
@@ -26,6 +25,6 @@ export default function BlogCard({ blog }) {
           </a>
         </div>
       </div>
-    </Fade>
+    </div>
   );
 }
