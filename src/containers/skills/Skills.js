@@ -2,6 +2,7 @@ import React from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skillsSection } from "../../portfolio";
+import activity from "../../assets/images/developerActivity.svg";
 
 export default function Skills() {
   return (
@@ -9,10 +10,7 @@ export default function Skills() {
       <div className="skills-main-div">
         <>
           <div className="skills-image-div">
-            <img
-              alt="Working"
-              src={require("../../assets/images/developerActivity.svg")}
-            ></img>
+            <img alt="Working" src={activity}></img>
           </div>
         </>
         <>
