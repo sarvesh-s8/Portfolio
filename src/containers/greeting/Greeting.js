@@ -3,6 +3,7 @@ import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
+import ManonDesk from "../../assets/images/manOnTable.svg";
 
 import emoji from "react-easy-emoji";
 
@@ -31,10 +32,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
-              alt="man at desk"
-              src={require("../../assets/images/manOnTable.svg")}
-            ></img>
+            <img alt="man at desk" src={ManonDesk} />
           </div>
         </div>
       </div>

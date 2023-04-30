@@ -4,7 +4,8 @@ const greeting = {
   username: "Sarvesh Samant",
   title: "Hi all, I'm Sarvesh",
   subTitle: emoji("Fullstack Developer"),
-  resumeLink: "",
+  resumeLink:
+    "https://drive.google.com/file/d/1eo8Ar7dwtsw72SXB62IapkJzmelFJMU6/view?usp=sharing",
 };
 
 const socialMediaLinks = {

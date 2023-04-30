@@ -10,7 +10,7 @@ export default function Skills() {
         <>
           <div className="skills-image-div">
             <img
-              alt="Bharat Working"
+              alt="Working"
               src={require("../../assets/images/developerActivity.svg")}
             ></img>
           </div>
